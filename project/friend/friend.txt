@@ -1,0 +1,10 @@
+Ruth Roberts	6
+Scott Anderson	5
+Sharon Scott	8
+Taylor David	6
+Taylor Robert	3
+Thomas Ruth	3
+Thomas Sharon	4
+Turner Michael	5
+Turner Roberts	2
+Wright Anderson	4
