@@ -4,21 +4,38 @@
 		<meta charset="utf-8">
 		<title></title>
 		<style>
-			html,body,#container{width:100%;height:100%;margin:0 auto;padding:0;}
+			html,
+			body,
+			#container {
+				width: 100%;
+				height: 100%;
+				margin: 0 auto;
+				padding: 0;
+			}
+
+			.fixed {
+				position: fixed;
+				left: 0px;
+				bottom: 0px;
+				width: 100%;
+				height: 50px;
+				background-color: #000;
+				z-index: 9999;
+			}
 		</style>
 	</head>
-	<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false" onbeforecopy="return false" oncopy=document.selection.empty() onselect=document.selection.empty()>
+	<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false" onbeforecopy="return false"
+	 oncopy=document.selection.empty() onselect=document.selection.empty()>
 		<div id="container">
-		<div id="title">
-			<span>
-				ｈｅｌｌｏｗｏｒｌｄ！
-			</span>
-		</div>
-		<div>
-			<a href="project/mapv/mapv.html">mapv 实例</a>
-			<a href="project/wordcloud/wordcloud.html">词云 实例</a>
-			<a href="project/friend/friend.html">热力图 实例</a>
-		</div>
+			<div style="text-align:center;">
+				<a href="firework.html">小鱼干专属烟花</a>
+			</div>
+			<div class="fixed">
+				<a href="he.html">测试代码</a>
+				<a href="project/mapv/mapv.html">mapv 实例</a>
+				<a href="project/wordcloud/wordcloud.html">词云 实例</a>
+				<a href="project/friend/friend.html">热力图 实例</a>
+			</div>
 		</div>
 	</body>
 </html>
